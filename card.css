@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: hsl(47, 88%, 63%);
+    width: 100%;
+    margin-top: 400px;
+    font-family: "Figtree", sans-serif;
+
+}
+
+body{
+    /* height: 1000px; */
+}
+
+.main{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 500px;
+    margin: auto;
+    gap: 30px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    height: 650px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 20px 20px hsl(0, 0%, 7%);
+}
+.slot{
+    align-content: center;
+}
+.slot svg{
+    /* border-radius:10%; */
+    /* margin: 0 100px; */
+    /* margin-right: 40px; */
+    /* margin-left: 50px; */
+}
+svg{
+    width: 350x;
+    height: 240px;
+    border-radius: 20px;
+}
+ .learn-text{
+    border-radius: 10px;
+    border: 0px solid black;
+    background-color: hsl(47, 88%, 63%);
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+ }
+.learn p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.content h1{
+    font-weight: bolder;
+    color: hsl(47, 88%, 63%);
+    padding-bottom: 35px;
+}
+.content p{
+    font-size: 19px;
+    padding-bottom: 10px;
+    line-height: 25px;
+    color: hsl(0, 0%, 50%);
+}
+
+.greg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.greg p{
+    font-weight: bold;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
